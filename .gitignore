@@ -1,0 +1,6 @@
+*-cache.*
+*.bck
+*.net
+*.sch-bak
+fp-info-cache
+sym-lib-table
