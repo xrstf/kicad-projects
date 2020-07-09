@@ -2,5 +2,8 @@
 *.bck
 *.net
 *.sch-bak
+*.dcm
+*.kicad_pcb-bak
 fp-info-cache
 sym-lib-table
+fp-lib-table
