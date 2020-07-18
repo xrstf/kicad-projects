@@ -1,4 +1,4 @@
-(module PinHeader_1x06_P2.54mm_Vertical (layer F.Cu) (tedit 5F0753CA)
+(module PinHeader_1x06_P2.54mm_Vertical (layer F.Cu) (tedit 5F12F1C8)
   (descr "Through hole straight pin header, 1x09, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x09 2.54mm single row")
   (fp_text reference REF** (at 0 -8.68) (layer F.SilkS) hide
@@ -8,7 +8,7 @@
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 1.3 -7.65) (end -1.3 -7.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.3 7.655) (end 1.27 -7.62) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.3 7.655) (end 1.3 -7.65) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.3 7.655) (end 1.3 7.655) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.3 -7.65) (end -1.3 7.655) (layer F.CrtYd) (width 0.05))
   (fp_line (start -1.275 7.62) (end -1.275 -7.62) (layer F.Fab) (width 0.1))
