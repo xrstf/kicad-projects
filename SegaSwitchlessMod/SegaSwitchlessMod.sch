@@ -47,23 +47,12 @@ F 3 "~" H 3050 2250 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L power:GND #PWR05
-U 1 1 5F01F4FA
-P 4050 2350
-F 0 "#PWR05" H 4050 2100 50  0001 C CNN
-F 1 "GND" V 4055 2222 50  0000 R CNN
-F 2 "" H 4050 2350 50  0001 C CNN
-F 3 "" H 4050 2350 50  0001 C CNN
-	1    4050 2350
-	0    -1   -1   0   
-$EndComp
-$Comp
 L SegaSwitchlessMod:PIC16F630-IP U4
 U 1 1 5F03BE83
 P 1700 1900
 F 0 "U4" H 1700 961 50  0000 C CNN
 F 1 "PIC16F630-IP" H 1700 870 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W10.16mm" H 2650 1600 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 2650 1600 50  0001 C CNN
 F 3 "" H 2650 1600 50  0001 C CNN
 	1    1700 1900
 	1    0    0    -1  
@@ -108,23 +97,6 @@ Wire Wire Line
 	2900 2250 2250 2250
 NoConn ~ 1550 2750
 NoConn ~ 2250 2050
-$Comp
-L Device:LED_Dual_AAC D1
-U 1 1 5F0A1C27
-P 3650 2350
-F 0 "D1" H 3650 2683 50  0000 C CNN
-F 1 "LED_Dual_AAC" H 3650 2684 50  0001 C CNN
-F 2 "LED_THT:LED_D5.0mm-3_Horizontal_O3.81mm_Z3.0mm" H 3650 2350 50  0001 C CNN
-F 3 "~" H 3650 2350 50  0001 C CNN
-	1    3650 2350
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3200 2250 3350 2250
-Wire Wire Line
-	3350 2450 3200 2450
-Wire Wire Line
-	4050 2350 3950 2350
 Wire Wire Line
 	1150 2050 950  2000
 Wire Wire Line
@@ -251,4 +223,38 @@ F 3 "" H 2600 2050 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2350 1900 2250 1850
+$Comp
+L SegaSwitchlessMod:SolderPad U11
+U 1 1 5F138BAA
+P 3600 2550
+F 0 "U11" H 3778 2596 50  0000 L CNN
+F 1 "Red" H 3778 2505 50  0000 L CNN
+F 2 "SegaSwitchlessMod:WireSolderPad_2.0x4.0mm" H 3600 2700 50  0001 C CNN
+F 3 "" H 3600 2700 50  0001 C CNN
+	1    3600 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L SegaSwitchlessMod:SolderPad U10
+U 1 1 5F13B5C7
+P 3600 2150
+F 0 "U10" H 3778 2196 50  0000 L CNN
+F 1 "Green" H 3778 2105 50  0000 L CNN
+F 2 "SegaSwitchlessMod:WireSolderPad_2.0x4.0mm" H 3600 2300 50  0001 C CNN
+F 3 "" H 3600 2300 50  0001 C CNN
+	1    3600 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2250 3250 2250
+Wire Wire Line
+	3250 2250 3250 2150
+Wire Wire Line
+	3250 2150 3350 2150
+Wire Wire Line
+	3200 2450 3250 2450
+Wire Wire Line
+	3250 2450 3250 2550
+Wire Wire Line
+	3250 2550 3350 2550
 $EndSCHEMATC
