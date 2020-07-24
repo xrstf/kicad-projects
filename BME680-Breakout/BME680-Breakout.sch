@@ -19,7 +19,7 @@ U 1 1 5F1453B6
 P 2800 2300
 F 0 "U1" V 2233 2300 50  0000 C CNN
 F 1 "BME680" V 2324 2300 50  0000 C CNN
-F 2 "BME680-Breakout:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering" H 4250 1850 50  0001 C CNN
+F 2 "GlobalParts:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering_LargePads" H 4250 1850 50  0001 C CNN
 F 3 "https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001.pdf" H 2800 2100 50  0001 C CNN
 	1    2800 2300
 	0    1    1    0   
